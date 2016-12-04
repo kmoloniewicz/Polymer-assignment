@@ -13,7 +13,7 @@ addons:
 before_script:
 - npm install web-component-tester
 - npm install bower
-- expotr PATH=$PWD/node_modules/.bin:$PATH
+- export PATH=$PWD/node_modules/.bin:$PATH
 - bower install
 script:
 - xvfb-run wct
