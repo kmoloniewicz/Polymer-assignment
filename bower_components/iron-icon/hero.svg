@@ -9,24 +9,8 @@
 <g id="label">
 </g>
 <g id="art">
-	<circle cx="73" cy="24" r="4"/>
-	<path d="M82,33H64V15h18V33z M66,31h14V17H66V31z"/>
-	<circle cx="112.5" cy="24" r="4"/>
-	<circle cx="151" cy="24" r="4"/>
-	<path d="M121,33h-18V15h18V33z M105,31h14V17h-14V31z"/>
-	<path d="M160,33h-18V15h18V33z M144,31h14V17h-14V31z"/>
-	<circle cx="73" cy="62" r="4"/>
-	<path d="M82,71H64V53h18V71z M66,69h14V55H66V69z"/>
-	<circle cx="112.5" cy="62" r="4"/>
-	<path d="M121,71h-18V53h18V71z M105,69h14V55h-14V69z"/>
-	<circle cx="151" cy="62" r="4"/>
-	<path d="M160,71h-18V53h18V71z M144,69h14V55h-14V69z"/>
-	<circle cx="73" cy="102" r="4"/>
-	<path d="M82,111H64V93h18V111z M66,109h14V95H66V109z"/>
-	<circle cx="112.5" cy="102" r="4"/>
-	<path d="M121,111h-18V93h18V111z M105,109h14V95h-14V109z"/>
-	<circle cx="151" cy="102" r="4"/>
-	<path d="M160,111h-18V93h18V111z M144,109h14V95h-14V109z"/>
+	<circle cx="112" cy="61" r="8"/>
+	<path d="M129,78H95V44h34V78z M97,76h30V46H97V76z"/>
 	<g id="ic_x5F_add_x0D_">
 	</g>
 </g>
