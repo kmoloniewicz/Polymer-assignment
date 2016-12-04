@@ -25,6 +25,13 @@
           assert.equal(element.is, 'icon-toggle');
         });
       });
+
+    suite('icon-toggle', function() {
+      test('instantiating the element works', function() {
+        var button = document.getElementsByTagName('icon-toggle').clicked;
+        assert.equal(button.is, false);
+      });
+    });
     </script>
   </body>
 </html>
