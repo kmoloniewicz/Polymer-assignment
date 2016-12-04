@@ -8,6 +8,7 @@
 
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../web-component-tester/browser.js"></script>
+    <script src="../../test-fixture/test-fixture-mocha.js"></script>
 
     <link rel="import" href="../icon-toggle.html">
   </head>
@@ -18,20 +19,28 @@
       </template>
     </test-fixture>
 
-    <script>
-      suite('icon-toggle', function() {
-        test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'icon-toggle');
-        });
-      });
+  <script>
 
-    suite('icon-toggle', function() {
-      test('instantiating the element works', function() {
-        var button = document.getElementsByTagName('icon-toggle').clicked;
-        assert.equal(button.is, false);
-      });
-    });
+  describe('<icon-toggle>', function() { 
+  var basic;
+
+  beforeEach(function() {
+  basic = fixture('basic');
+  });
+
+  it('should not be pressed by default', function() {
+  expect(basic.pressed).to.be.equal(false);
+  
+  });
+
+  it('should be pressed after click', function() {
+  basic.setAttribute('pressed', 'true');
+  expect(basic.pressed).to.be.equal(true);
+    
+  });
+
+});
+
     </script>
   </body>
 </html>
